@@ -8,6 +8,8 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 from pymongo import MongoClient
 from datetime import datetime, timedelta, timezone
 
+os.system('chmod +x *')
+
 # Configure logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
